@@ -9,6 +9,7 @@
 # $5 Set to 1 if you want to install FSL 5.0, 0 otherwise.
 # $6 Set to 1 if you want to configure the Fibernavigator's dependencies, 0 otherwise.
 # $7 Set to 1 if you want to install NLMEANS for denoising, 0 otherwise.
+# S8 Set to 1 if you want to install ASNI for fMRI processing, 0 otherwise.
 if [[ $# -lt 7 ]]
 then
     echo "Missing some params. Please read the header of the script."
